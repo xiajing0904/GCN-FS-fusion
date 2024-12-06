@@ -1,14 +1,14 @@
 ## Project Structure Overview
 
-- `PPMI_FC` folder: Contains Functional Connectome X.npy dataset for 839 subjects.
-- `PPMI_SC` folder: Contains Structural Connectome X.npy dataset for 839 subjects.
+- `dataset_FC` folder: Contains Functional Connectome X.npy dataset for 30 subjects for testing.
+- `dataset_SC` folder: Contains Structural Connectome X.npy dataset for 30 subjects for testing.
 - `gae` folder: Contains the Models for classification, and utility scripts for data preparation, training and testing.
 - `results_fusion` folder: Contains classification results.
 
 ## Data directory
-- FC dataset: Located in /PPMI_FC/*/X.npy
-- SC dataset: Located in /PPMI_SC/*/X.npy
-- Label dataset: Located in /PPMI_SC/*/Y.npy
+- FC dataset: Located in /dataset_FC/*/X.npy
+- SC dataset: Located in /dataset_SC/*/X.npy
+- Label dataset: Located in /dataset_SC/*/Y.npy
 
 ## Usage
 - Run train_fusion_end.py for training and testing
