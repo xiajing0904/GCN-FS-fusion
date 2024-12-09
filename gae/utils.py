@@ -7,7 +7,7 @@ import heapq
 
 def get_data(connpath, scorepath, feature = False):
     all_data = np.load(connpath)
-    all_score = np.load(scorepath)
+    all_score = np.squeeze(np.load(scorepath))
     
     return all_data, all_score
 
