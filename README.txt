@@ -1,7 +1,7 @@
 ## Project Structure Overview
 
-- `dataset_FC` folder: Contains Functional Connectome X.npy dataset for 30 subjects for testing.
-- `dataset_SC` folder: Contains Structural Connectome X.npy dataset for 30 subjects for testing.
+- `dataset_FC` folder: Contains Functional Connectome X.npy dataset for 30 samples for testing.
+- `dataset_SC` folder: Contains Structural Connectome X.npy dataset for 30 samples for testing.
 - `gae` folder: Contains the Models for classification, and utility scripts for data preparation, training and testing.
 - `results_fusion` folder: Contains classification results.
 
