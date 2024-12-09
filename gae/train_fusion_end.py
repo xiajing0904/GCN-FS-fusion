@@ -147,12 +147,6 @@ sconnpath2 = dir +'/dataset_SC/Disease/X.npy'
 labelpath1 = dir +'/dataset_SC/Control/Y.npy'  
 labelpath2 = dir +'/dataset_SC/Disease/Y.npy'  
 
-# fconnpath = '/data/jing001/gae-FS-class/PPMI/Control/X.npy'  ##need to modify
-# sconnpath = '/data/jing001/gae-FS-class/PPMI_SC/Control/X.npy'  ##need to modify
-# fconnpath2 = '/data/jing001/gae-FS-class/PPMI/PD/X.npy'  ##need to modify
-# sconnpath2 = '/data/jing001/gae-FS-class/PPMI_SC/PD/X.npy'  ##need to modify
-# labelpath1 = '/data/jing001/gae-FS-class/PPMI_SC/Control/Y.npy'  ##need to modify
-# labelpath2 = '/data/jing001/gae-FS-class/PPMI_SC/PD/Y.npy'  ##need to modify
 
 timefile = dir + '/results_fusion/GCN-fusion-'+runnum+'-'+str(int(time.time()))
 os.mkdir(timefile)
